@@ -1,0 +1,378 @@
+{
+ "shots": [
+  {
+   "sceneId": 1,
+   "type": "pull-back",
+   "anchor": null,
+   "ease": "inOut",
+   "sway": 0.4,
+   "note": "Establishing miring: mulai rendah di dekat kerumunan, crane mundur-naik membuka kota.",
+   "keyframes": [
+    {
+     "t": 0,
+     "pos": [
+      -9,
+      2.4,
+      -3.2
+     ],
+     "lookAt": [
+      2.5,
+      4.6,
+      6.5
+     ],
+     "fov": 46
+    },
+    {
+     "t": 1,
+     "pos": [
+      -18,
+      10,
+      -9.5
+     ],
+     "lookAt": [
+      1,
+      4.2,
+      6
+     ],
+     "fov": 58
+    }
+   ]
+  },
+  {
+   "sceneId": 2,
+   "type": "push-in",
+   "anchor": "dino+mira",
+   "ease": "inOut",
+   "sway": 0.3,
+   "note": "Low-angle ke Dino (senang), geser ke dua-shot, lalu high-angle ke Mira (sedih).",
+   "keyframes": [
+    {
+     "t": 0,
+     "pos": [
+      3,
+      -0.4,
+      -7.2
+     ],
+     "lookAt": [
+      -1.2,
+      0.7,
+      0
+     ],
+     "fov": 34
+    },
+    {
+     "t": 0.5,
+     "pos": [
+      0.8,
+      0.9,
+      -10.2
+     ],
+     "lookAt": [
+      0,
+      0.9,
+      0
+     ],
+     "fov": 46
+    },
+    {
+     "t": 1,
+     "pos": [
+      -3,
+      2.6,
+      -7.8
+     ],
+     "lookAt": [
+      1.4,
+      1.2,
+      0
+     ],
+     "fov": 34
+    }
+   ]
+  },
+  {
+   "sceneId": 3,
+   "type": "follow",
+   "anchor": "raka",
+   "ease": "inOut",
+   "sway": 0.3,
+   "lookAhead": 0.35,
+   "transition": 0.9,
+   "note": "Follow Raka dari depan-kiri rendah, lalu orbit ke depan agar wajah murungnya terbaca.",
+   "keyframes": [
+    {
+     "t": 0,
+     "pos": [
+      -5.5,
+      0.5,
+      -10
+     ],
+     "lookAt": [
+      2.4,
+      1.5,
+      0.5
+     ],
+     "fov": 40
+    },
+    {
+     "t": 1,
+     "pos": [
+      3.8,
+      1.2,
+      -9.6
+     ],
+     "lookAt": [
+      0.4,
+      1.7,
+      0.3
+     ],
+     "fov": 36
+    }
+   ]
+  },
+  {
+   "sceneId": 4,
+   "type": "tracking-low",
+   "anchor": "luna",
+   "ease": "inOut",
+   "sway": 0.3,
+   "note": "Tracking rendah mengikuti Luna keluar dari gang sampai bertemu Raka.",
+   "keyframes": [
+    {
+     "t": 0,
+     "pos": [
+      -7.5,
+      0,
+      -9.5
+     ],
+     "lookAt": [
+      0.5,
+      0.8,
+      0
+     ],
+     "fov": 36
+    },
+    {
+     "t": 1,
+     "pos": [
+      -3.2,
+      0.3,
+      -8
+     ],
+     "lookAt": [
+      -0.8,
+      1,
+      0
+     ],
+     "fov": 34
+    }
+   ]
+  },
+  {
+   "sceneId": 5,
+   "type": "orbit",
+   "anchor": "raka+luna",
+   "ease": "inOut",
+   "sway": 0.35,
+   "note": "Orbit ±45° mengelilingi dua tokoh yang berdiri berdampingan.",
+   "keyframes": [
+    {
+     "t": 0,
+     "pos": [
+      -7,
+      0.2,
+      -11.2
+     ],
+     "lookAt": [
+      0.2,
+      1,
+      0
+     ],
+     "fov": 38
+    },
+    {
+     "t": 0.5,
+     "pos": [
+      -0.5,
+      0.5,
+      -12
+     ],
+     "lookAt": [
+      0,
+      1.4,
+      0
+     ],
+     "fov": 36
+    },
+    {
+     "t": 1,
+     "pos": [
+      6.8,
+      1.4,
+      -11
+     ],
+     "lookAt": [
+      -0.3,
+      1.5,
+      0
+     ],
+     "fov": 34
+    }
+   ]
+  },
+  {
+   "sceneId": 6,
+   "type": "crane-up",
+   "anchor": "raka",
+   "ease": "inOut",
+   "sway": 0.3,
+   "note": "Crane naik dari sudut rendah ke awan Raka yang menipis.",
+   "keyframes": [
+    {
+     "t": 0,
+     "pos": [
+      2.6,
+      -1.4,
+      -9
+     ],
+     "lookAt": [
+      0.4,
+      1.4,
+      0
+     ],
+     "fov": 40
+    },
+    {
+     "t": 1,
+     "pos": [
+      3.4,
+      1.2,
+      -9.4
+     ],
+     "lookAt": [
+      0.2,
+      2.3,
+      0
+     ],
+     "fov": 38
+    }
+   ]
+  },
+  {
+   "sceneId": 7,
+   "type": "orbit-reveal",
+   "anchor": "raka+luna",
+   "ease": "inOut",
+   "sway": 0.35,
+   "note": "Orbit lebar sambil naik: dua awan menyatu dan pelangi terbuka.",
+   "keyframes": [
+    {
+     "t": 0,
+     "pos": [
+      -6,
+      2.6,
+      -12.5
+     ],
+     "lookAt": [
+      0,
+      2.7,
+      0
+     ],
+     "fov": 40
+    },
+    {
+     "t": 1,
+     "pos": [
+      6,
+      3.4,
+      -13
+     ],
+     "lookAt": [
+      0,
+      3,
+      0
+     ],
+     "fov": 42
+    }
+   ]
+  },
+  {
+   "sceneId": 8,
+   "type": "tracking-side",
+   "anchor": "raka+luna",
+   "ease": "inOut",
+   "sway": 0.3,
+   "lookAhead": 0.4,
+   "note": "Tracking samping medium mengikuti mereka berjalan berdampingan.",
+   "keyframes": [
+    {
+     "t": 0,
+     "pos": [
+      -2,
+      0.4,
+      -13.5
+     ],
+     "lookAt": [
+      0,
+      1.8,
+      0
+     ],
+     "fov": 42
+    },
+    {
+     "t": 1,
+     "pos": [
+      2.5,
+      0.9,
+      -13
+     ],
+     "lookAt": [
+      0,
+      2.4,
+      0
+     ],
+     "fov": 42
+    }
+   ]
+  },
+  {
+   "sceneId": 9,
+   "type": "pull-back-wide",
+   "anchor": "raka+luna",
+   "ease": "inOut",
+   "sway": 0.4,
+   "transition": 0.8,
+   "note": "Pull-back crane miring ke shot luas kota; teks akhir muncul.",
+   "keyframes": [
+    {
+     "t": 0,
+     "pos": [
+      3.5,
+      2.2,
+      -13
+     ],
+     "lookAt": [
+      0,
+      2.6,
+      0
+     ],
+     "fov": 42
+    },
+    {
+     "t": 1,
+     "pos": [
+      -26,
+      12.5,
+      -10
+     ],
+     "lookAt": [
+      14,
+      3.8,
+      2
+     ],
+     "fov": 58
+    }
+   ]
+  }
+ ]
+}

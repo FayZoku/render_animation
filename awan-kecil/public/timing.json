@@ -1,0 +1,552 @@
+{
+  "totalSeconds": 55.204,
+  "scenes": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 6,
+      "text": "In this world, setiap orang punya awan kecil yang selalu mengikuti di atas kepala.",
+      "words": [
+        {
+          "w": "In this",
+          "start": 0,
+          "end": 0.571
+        },
+        {
+          "w": "world,",
+          "start": 0.571,
+          "end": 1.265
+        },
+        {
+          "w": "setiap",
+          "start": 1.265,
+          "end": 1.755
+        },
+        {
+          "w": "orang",
+          "start": 1.755,
+          "end": 2.163
+        },
+        {
+          "w": "punya",
+          "start": 2.163,
+          "end": 2.571
+        },
+        {
+          "w": "awan",
+          "start": 2.571,
+          "end": 2.898
+        },
+        {
+          "w": "kecil",
+          "start": 2.898,
+          "end": 3.306
+        },
+        {
+          "w": "yang",
+          "start": 3.306,
+          "end": 3.633
+        },
+        {
+          "w": "selalu",
+          "start": 3.633,
+          "end": 4.122
+        },
+        {
+          "w": "mengikuti",
+          "start": 4.122,
+          "end": 4.857
+        },
+        {
+          "w": "di atas",
+          "start": 4.857,
+          "end": 5.429
+        },
+        {
+          "w": "kepala.",
+          "start": 5.429,
+          "end": 6
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "start": 6,
+      "end": 13,
+      "text": "Kalau hatinya senang awannya cerah, Kalau hatinya sedih awannya menurunkan hujan.",
+      "words": [
+        {
+          "w": "Kalau",
+          "start": 6,
+          "end": 6.476
+        },
+        {
+          "w": "hatinya",
+          "start": 6.476,
+          "end": 7.143
+        },
+        {
+          "w": "senang",
+          "start": 7.143,
+          "end": 7.714
+        },
+        {
+          "w": "awannya",
+          "start": 7.714,
+          "end": 8.381
+        },
+        {
+          "w": "cerah,",
+          "start": 8.381,
+          "end": 9.19
+        },
+        {
+          "w": "Kalau",
+          "start": 9.19,
+          "end": 9.667
+        },
+        {
+          "w": "hatinya",
+          "start": 9.667,
+          "end": 10.333
+        },
+        {
+          "w": "sedih",
+          "start": 10.333,
+          "end": 10.81
+        },
+        {
+          "w": "awannya",
+          "start": 10.81,
+          "end": 11.476
+        },
+        {
+          "w": "menurunkan",
+          "start": 11.476,
+          "end": 12.429
+        },
+        {
+          "w": "hujan.",
+          "start": 12.429,
+          "end": 13
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "start": 13,
+      "end": 22,
+      "text": "Ada seorang pria bernama Raka, awannya selalu mendung, setiap hari, orang-orang menjauh takut kebasahan.",
+      "words": [
+        {
+          "w": "Ada",
+          "start": 13,
+          "end": 13.274
+        },
+        {
+          "w": "seorang",
+          "start": 13.274,
+          "end": 13.914
+        },
+        {
+          "w": "pria",
+          "start": 13.914,
+          "end": 14.279
+        },
+        {
+          "w": "bernama",
+          "start": 14.279,
+          "end": 14.919
+        },
+        {
+          "w": "Raka,",
+          "start": 14.919,
+          "end": 15.604
+        },
+        {
+          "w": "awannya",
+          "start": 15.604,
+          "end": 16.244
+        },
+        {
+          "w": "selalu",
+          "start": 16.244,
+          "end": 16.792
+        },
+        {
+          "w": "mendung,",
+          "start": 16.792,
+          "end": 17.751
+        },
+        {
+          "w": "setiap",
+          "start": 17.751,
+          "end": 18.299
+        },
+        {
+          "w": "hari,",
+          "start": 18.299,
+          "end": 18.985
+        },
+        {
+          "w": "orang-orang",
+          "start": 18.985,
+          "end": 19.99
+        },
+        {
+          "w": "menjauh",
+          "start": 19.99,
+          "end": 20.629
+        },
+        {
+          "w": "takut",
+          "start": 20.629,
+          "end": 21.086
+        },
+        {
+          "w": "kebasahan.",
+          "start": 21.086,
+          "end": 22
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "start": 22,
+      "end": 28,
+      "text": "Suatu pagi, Raka bertemu Luna, awan Luna bersinar terang bahkan hangat.",
+      "words": [
+        {
+          "w": "Suatu",
+          "start": 22,
+          "end": 22.455
+        },
+        {
+          "w": "pagi,",
+          "start": 22.455,
+          "end": 23.136
+        },
+        {
+          "w": "Raka",
+          "start": 23.136,
+          "end": 23.5
+        },
+        {
+          "w": "bertemu",
+          "start": 23.5,
+          "end": 24.136
+        },
+        {
+          "w": "Luna,",
+          "start": 24.136,
+          "end": 24.818
+        },
+        {
+          "w": "awan",
+          "start": 24.818,
+          "end": 25.182
+        },
+        {
+          "w": "Luna",
+          "start": 25.182,
+          "end": 25.545
+        },
+        {
+          "w": "bersinar",
+          "start": 25.545,
+          "end": 26.273
+        },
+        {
+          "w": "terang",
+          "start": 26.273,
+          "end": 26.818
+        },
+        {
+          "w": "bahkan",
+          "start": 26.818,
+          "end": 27.364
+        },
+        {
+          "w": "hangat.",
+          "start": 27.364,
+          "end": 28
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "start": 28,
+      "end": 35,
+      "text": "Luna tidak lari, dia hanya tersenyum lalu berdiri di sebelah Raka ikut basah,",
+      "words": [
+        {
+          "w": "Luna",
+          "start": 28,
+          "end": 28.415
+        },
+        {
+          "w": "tidak",
+          "start": 28.415,
+          "end": 28.933
+        },
+        {
+          "w": "lari,",
+          "start": 28.933,
+          "end": 29.711
+        },
+        {
+          "w": "dia",
+          "start": 29.711,
+          "end": 30.022
+        },
+        {
+          "w": "hanya",
+          "start": 30.022,
+          "end": 30.541
+        },
+        {
+          "w": "tersenyum",
+          "start": 30.541,
+          "end": 31.474
+        },
+        {
+          "w": "lalu",
+          "start": 31.474,
+          "end": 31.889
+        },
+        {
+          "w": "berdiri",
+          "start": 31.889,
+          "end": 32.615
+        },
+        {
+          "w": "di",
+          "start": 32.615,
+          "end": 32.822
+        },
+        {
+          "w": "sebelah",
+          "start": 32.822,
+          "end": 33.548
+        },
+        {
+          "w": "Raka",
+          "start": 33.548,
+          "end": 33.963
+        },
+        {
+          "w": "ikut",
+          "start": 33.963,
+          "end": 34.378
+        },
+        {
+          "w": "basah,",
+          "start": 34.378,
+          "end": 35
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "start": 35,
+      "end": 41,
+      "text": "pelan-pelan awan Raka mulai menipis, hujannya berubah jadi gerimis lalu berhenti.",
+      "words": [
+        {
+          "w": "pelan-pelan",
+          "start": 35,
+          "end": 35.898
+        },
+        {
+          "w": "awan",
+          "start": 35.898,
+          "end": 36.224
+        },
+        {
+          "w": "Raka",
+          "start": 36.224,
+          "end": 36.551
+        },
+        {
+          "w": "mulai",
+          "start": 36.551,
+          "end": 36.959
+        },
+        {
+          "w": "menipis,",
+          "start": 36.959,
+          "end": 37.816
+        },
+        {
+          "w": "hujannya",
+          "start": 37.816,
+          "end": 38.469
+        },
+        {
+          "w": "berubah",
+          "start": 38.469,
+          "end": 39.041
+        },
+        {
+          "w": "jadi",
+          "start": 39.041,
+          "end": 39.367
+        },
+        {
+          "w": "gerimis",
+          "start": 39.367,
+          "end": 39.939
+        },
+        {
+          "w": "lalu",
+          "start": 39.939,
+          "end": 40.265
+        },
+        {
+          "w": "berhenti.",
+          "start": 40.265,
+          "end": 41
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "start": 41,
+      "end": 46,
+      "text": "Dua awan itu menyatu, dan muncul pelangi kecil.",
+      "words": [
+        {
+          "w": "Dua",
+          "start": 41,
+          "end": 41.353
+        },
+        {
+          "w": "awan",
+          "start": 41.353,
+          "end": 41.824
+        },
+        {
+          "w": "itu",
+          "start": 41.824,
+          "end": 42.176
+        },
+        {
+          "w": "menyatu,",
+          "start": 42.176,
+          "end": 43.412
+        },
+        {
+          "w": "dan",
+          "start": 43.412,
+          "end": 43.765
+        },
+        {
+          "w": "muncul",
+          "start": 43.765,
+          "end": 44.471
+        },
+        {
+          "w": "pelangi",
+          "start": 44.471,
+          "end": 45.294
+        },
+        {
+          "w": "kecil.",
+          "start": 45.294,
+          "end": 46
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "start": 47,
+      "end": 51,
+      "text": "Di dunia ini, kita tidak perlu memperbaiki awan orang lain.",
+      "words": [
+        {
+          "w": "Di dunia",
+          "start": 47,
+          "end": 47.598
+        },
+        {
+          "w": "ini,",
+          "start": 47.598,
+          "end": 48.084
+        },
+        {
+          "w": "kita",
+          "start": 48.084,
+          "end": 48.383
+        },
+        {
+          "w": "tidak",
+          "start": 48.383,
+          "end": 48.757
+        },
+        {
+          "w": "perlu",
+          "start": 48.757,
+          "end": 49.131
+        },
+        {
+          "w": "memperbaiki",
+          "start": 49.131,
+          "end": 49.953
+        },
+        {
+          "w": "awan",
+          "start": 49.953,
+          "end": 50.252
+        },
+        {
+          "w": "orang",
+          "start": 50.252,
+          "end": 50.626
+        },
+        {
+          "w": "lain.",
+          "start": 50.626,
+          "end": 51
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "start": 51,
+      "end": 55,
+      "text": "Cukup temani dia, sampai hujannya reda.",
+      "words": [
+        {
+          "w": "Cukup",
+          "start": 51,
+          "end": 51.548
+        },
+        {
+          "w": "temani",
+          "start": 51.548,
+          "end": 52.205
+        },
+        {
+          "w": "dia,",
+          "start": 52.205,
+          "end": 52.918
+        },
+        {
+          "w": "sampai",
+          "start": 52.918,
+          "end": 53.575
+        },
+        {
+          "w": "hujannya",
+          "start": 53.575,
+          "end": 54.452
+        },
+        {
+          "w": "reda.",
+          "start": 54.452,
+          "end": 55
+        }
+      ]
+    }
+  ]
+}

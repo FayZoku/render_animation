@@ -1,0 +1,31 @@
+{
+  "name": "awan-kecil",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Animasi 3D blocky pastel 'Awan Kecil' (Remotion + React Three Fiber), 1080x1920 @30fps",
+  "scripts": {
+    "timing": "tsx scripts/srt-to-timing.ts",
+    "audio": "tsx scripts/generate-audio.ts",
+    "check": "tsx scripts/check-camera.ts",
+    "typecheck": "tsc --noEmit",
+    "studio": "remotion studio src/index.ts",
+    "render": "remotion render src/index.ts Video out/video.mp4 --gl=angle --codec=h264"
+  },
+  "dependencies": {
+    "@react-three/fiber": "8.17.10",
+    "@remotion/cli": "4.0.250",
+    "@remotion/google-fonts": "4.0.250",
+    "@remotion/three": "4.0.250",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "remotion": "4.0.250",
+    "three": "0.169.0"
+  },
+  "devDependencies": {
+    "@types/node": "20.14.12",
+    "@types/react": "18.3.12",
+    "@types/three": "0.169.0",
+    "tsx": "4.19.2",
+    "typescript": "5.5.4"
+  }
+}

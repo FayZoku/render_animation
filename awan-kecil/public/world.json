@@ -1,0 +1,2090 @@
+{
+ "meta": {
+  "title": "Awan Kecil",
+  "units": "1 unit = 1 satuan dunia; tokoh setinggi ±3.7. Sumbu: x memanjang sepanjang jalan, z melintang (jalan di |z|<3, trotoar 3..9), y atas.",
+  "note": "Edit file ini lalu render ulang. Lihat README untuk arti tiap field."
+ },
+ "emotionClouds": true,
+ "characters": [
+  {
+   "id": "raka",
+   "name": "Raka",
+   "role": "hero",
+   "scale": 0.82,
+   "visibleFrom": 12,
+   "defaultExpr": "sad",
+   "look": {
+    "hair": "spiky",
+    "hairColor": "#4a3a3f",
+    "skin": "#e8b98f",
+    "shirt": "#8ea0d6",
+    "pants": "#4b557f",
+    "shoes": "#4a4052",
+    "accessory": "none",
+    "pattern": "pocket"
+   },
+   "partner": "luna",
+   "cloudTint": "#9aa0c8",
+   "path": [
+    {
+     "t": 0,
+     "pos": [
+      -60,
+      6
+     ],
+     "yaw": 90
+    },
+    {
+     "t": 12,
+     "pos": [
+      -19,
+      6
+     ],
+     "yaw": 90
+    },
+    {
+     "t": 23.4,
+     "pos": [
+      0.4,
+      6
+     ],
+     "yaw": 90
+    },
+    {
+     "t": 24.6,
+     "pos": [
+      2,
+      6
+     ],
+     "yaw": 90,
+     "ease": "out",
+     "act": "auto"
+    },
+    {
+     "t": 25.9,
+     "pos": [
+      2,
+      6
+     ],
+     "yaw": 90,
+     "act": "shock"
+    },
+    {
+     "t": 28.6,
+     "pos": [
+      2,
+      6
+     ],
+     "yaw": 90,
+     "act": "idle"
+    },
+    {
+     "t": 30.4,
+     "pos": [
+      2,
+      6
+     ],
+     "yaw": 180
+    },
+    {
+     "t": 46.4,
+     "pos": [
+      2,
+      6
+     ],
+     "yaw": 180
+    },
+    {
+     "t": 48,
+     "pos": [
+      3,
+      6
+     ],
+     "yaw": 90,
+     "ease": "in"
+    },
+    {
+     "t": 55.4,
+     "pos": [
+      12.2,
+      6
+     ],
+     "yaw": 90
+    }
+   ],
+   "cloud": [
+    {
+     "t": 0,
+     "mood": 0.05,
+     "rain": 1,
+     "size": 1.15
+    },
+    {
+     "t": 35,
+     "mood": 0.05,
+     "rain": 1,
+     "size": 1.15
+    },
+    {
+     "t": 37.5,
+     "mood": 0.35,
+     "rain": 0.35,
+     "size": 0.95
+    },
+    {
+     "t": 39.8,
+     "mood": 0.7,
+     "rain": 0,
+     "size": 0.8
+    },
+    {
+     "t": 41,
+     "mood": 0.85,
+     "rain": 0,
+     "size": 0.78,
+     "merge": 0
+    },
+    {
+     "t": 43.6,
+     "mood": 1,
+     "rain": 0,
+     "size": 1.1,
+     "merge": 1,
+     "glow": 0.5
+    },
+    {
+     "t": 60,
+     "mood": 1,
+     "rain": 0,
+     "size": 1.1,
+     "merge": 1,
+     "glow": 0.5
+    }
+   ]
+  },
+  {
+   "id": "luna",
+   "name": "Luna",
+   "role": "partner",
+   "scale": 0.8,
+   "visibleFrom": 21.8,
+   "defaultExpr": "happy",
+   "look": {
+    "hair": "bun",
+    "hairColor": "#d9a35b",
+    "skin": "#f0c7a0",
+    "shirt": "#f7d77e",
+    "pants": "#e6a6c0",
+    "shoes": "#6d5a63",
+    "accessory": "headband",
+    "accessoryColor": "#f08fb0",
+    "pattern": "none"
+   },
+   "partner": "raka",
+   "cloudTint": "#ffd36b",
+   "path": [
+    {
+     "t": 0,
+     "pos": [
+      16.7,
+      14
+     ],
+     "yaw": 180
+    },
+    {
+     "t": 21.4,
+     "pos": [
+      16.7,
+      11
+     ],
+     "yaw": 180
+    },
+    {
+     "t": 23.2,
+     "pos": [
+      16.7,
+      7
+     ],
+     "yaw": 180
+    },
+    {
+     "t": 28.9,
+     "pos": [
+      5.2,
+      6
+     ]
+    },
+    {
+     "t": 29.6,
+     "pos": [
+      4.7,
+      6
+     ],
+     "yaw": -90,
+     "ease": "out"
+    },
+    {
+     "t": 30.6,
+     "pos": [
+      4.7,
+      6
+     ],
+     "yaw": 180
+    },
+    {
+     "t": 46.4,
+     "pos": [
+      4.7,
+      6
+     ],
+     "yaw": 180
+    },
+    {
+     "t": 48,
+     "pos": [
+      5.7,
+      6
+     ],
+     "yaw": 90,
+     "ease": "in"
+    },
+    {
+     "t": 55.4,
+     "pos": [
+      14.9,
+      6
+     ],
+     "yaw": 90
+    }
+   ],
+   "cloud": [
+    {
+     "t": 0,
+     "mood": 1,
+     "rain": 0,
+     "size": 1.05,
+     "glow": 1
+    },
+    {
+     "t": 41,
+     "mood": 1,
+     "rain": 0,
+     "size": 1.05,
+     "glow": 1,
+     "merge": 0
+    },
+    {
+     "t": 43.6,
+     "mood": 1,
+     "rain": 0,
+     "size": 1.1,
+     "glow": 0.5,
+     "merge": 1
+    },
+    {
+     "t": 60,
+     "mood": 1,
+     "rain": 0,
+     "size": 1.1,
+     "glow": 0.5,
+     "merge": 1
+    }
+   ]
+  },
+  {
+   "id": "dino",
+   "name": "Dino",
+   "role": "support",
+   "scale": 0.62,
+   "defaultExpr": "happy",
+   "look": {
+    "hair": "curly",
+    "hairColor": "#6b4fa0",
+    "skin": "#c58b62",
+    "shirt": "#f6b59a",
+    "pants": "#6c8fb8",
+    "shoes": "#4a4052",
+    "accessory": "none",
+    "pattern": "stripe"
+   },
+   "path": [
+    {
+     "t": 0,
+     "pos": [
+      -6,
+      3.7
+     ],
+     "yaw": 180,
+     "act": "laugh"
+    },
+    {
+     "t": 14,
+     "pos": [
+      -6,
+      3.7
+     ],
+     "yaw": 180,
+     "act": "idle"
+    },
+    {
+     "t": 80,
+     "pos": [
+      -6,
+      3.7
+     ],
+     "yaw": 180
+    }
+   ],
+   "cloud": [
+    {
+     "t": 0,
+     "mood": 1,
+     "rain": 0,
+     "size": 1,
+     "glow": 0.15
+    },
+    {
+     "t": 80,
+     "mood": 1,
+     "rain": 0,
+     "size": 1,
+     "glow": 0.15
+    }
+   ],
+   "repel": {
+    "from": "raka",
+    "radius": 7,
+    "push": 1.2,
+    "side": -1,
+    "until": 25,
+    "zMin": 2.2
+   }
+  },
+  {
+   "id": "mira",
+   "name": "Mira",
+   "role": "support",
+   "scale": 0.8,
+   "defaultExpr": "happy",
+   "look": {
+    "hair": "bob",
+    "hairColor": "#3b2b2d",
+    "skin": "#e8b98f",
+    "shirt": "#b9a6e0",
+    "pants": "#7c6f86",
+    "shoes": "#5d4a55",
+    "accessory": "headband",
+    "accessoryColor": "#f08fb0",
+    "pattern": "none"
+   },
+   "path": [
+    {
+     "t": 0,
+     "pos": [
+      -3.6,
+      3.7
+     ],
+     "yaw": 180
+    },
+    {
+     "t": 80,
+     "pos": [
+      -3.6,
+      3.7
+     ],
+     "yaw": 180
+    }
+   ],
+   "cloud": [
+    {
+     "t": 0,
+     "mood": 1,
+     "rain": 0,
+     "size": 0.95
+    },
+    {
+     "t": 9.2,
+     "mood": 1,
+     "rain": 0,
+     "size": 0.95
+    },
+    {
+     "t": 10.8,
+     "mood": 0.12,
+     "rain": 1,
+     "size": 1.05
+    },
+    {
+     "t": 14.5,
+     "mood": 0.12,
+     "rain": 1,
+     "size": 1.05
+    },
+    {
+     "t": 16.8,
+     "mood": 0.95,
+     "rain": 0,
+     "size": 0.95
+    },
+    {
+     "t": 80,
+     "mood": 0.95,
+     "rain": 0,
+     "size": 0.95
+    }
+   ],
+   "repel": {
+    "from": "raka",
+    "radius": 7,
+    "push": 1.2,
+    "side": -1,
+    "until": 25,
+    "zMin": 2.2
+   }
+  },
+  {
+   "id": "e01",
+   "role": "extra",
+   "scale": 0.76,
+   "path": [
+    {
+     "t": 0,
+     "pos": [
+      6,
+      7.3
+     ]
+    },
+    {
+     "t": 70,
+     "pos": [
+      -71,
+      7.3
+     ]
+    }
+   ],
+   "repel": {
+    "from": "raka",
+    "radius": 6.5,
+    "push": 1,
+    "side": 1,
+    "until": 25,
+    "zMax": 8.5
+   }
+  },
+  {
+   "id": "e02",
+   "role": "extra",
+   "scale": 0.77,
+   "path": [
+    {
+     "t": 0,
+     "pos": [
+      14,
+      7.3
+     ]
+    },
+    {
+     "t": 70,
+     "pos": [
+      -56,
+      7.3
+     ]
+    }
+   ],
+   "repel": {
+    "from": "raka",
+    "radius": 6.5,
+    "push": 1,
+    "side": 1,
+    "until": 25,
+    "zMax": 8.5
+   }
+  },
+  {
+   "id": "e03",
+   "role": "extra",
+   "scale": 0.81,
+   "path": [
+    {
+     "t": 0,
+     "pos": [
+      -2,
+      7.3
+     ]
+    },
+    {
+     "t": 70,
+     "pos": [
+      -65,
+      7.3
+     ]
+    }
+   ],
+   "repel": {
+    "from": "raka",
+    "radius": 6.5,
+    "push": 1,
+    "side": 1,
+    "until": 25,
+    "zMax": 8.5
+   }
+  },
+  {
+   "id": "e04",
+   "role": "extra",
+   "scale": 0.81,
+   "path": [
+    {
+     "t": 0,
+     "pos": [
+      8,
+      -5.2
+     ]
+    },
+    {
+     "t": 70,
+     "pos": [
+      -76,
+      -5.2
+     ]
+    }
+   ]
+  },
+  {
+   "id": "e05",
+   "role": "extra",
+   "scale": 0.77,
+   "path": [
+    {
+     "t": 0,
+     "pos": [
+      -3,
+      -5.2
+     ]
+    },
+    {
+     "t": 70,
+     "pos": [
+      -73,
+      -5.2
+     ]
+    }
+   ]
+  },
+  {
+   "id": "e06",
+   "role": "extra",
+   "scale": 0.75,
+   "path": [
+    {
+     "t": 0,
+     "pos": [
+      22,
+      -5.2
+     ]
+    },
+    {
+     "t": 70,
+     "pos": [
+      -69,
+      -5.2
+     ]
+    }
+   ]
+  },
+  {
+   "id": "e07",
+   "role": "extra",
+   "scale": 0.76,
+   "path": [
+    {
+     "t": 0,
+     "pos": [
+      -14,
+      -7.2
+     ]
+    },
+    {
+     "t": 70,
+     "pos": [
+      63,
+      -7.2
+     ]
+    }
+   ]
+  },
+  {
+   "id": "e08",
+   "role": "extra",
+   "scale": 0.83,
+   "path": [
+    {
+     "t": 0,
+     "pos": [
+      -4,
+      -7.2
+     ]
+    },
+    {
+     "t": 70,
+     "pos": [
+      80,
+      -7.2
+     ]
+    }
+   ]
+  },
+  {
+   "id": "e09",
+   "role": "extra",
+   "scale": 0.83,
+   "path": [
+    {
+     "t": 0,
+     "pos": [
+      3,
+      -7.2
+     ]
+    },
+    {
+     "t": 70,
+     "pos": [
+      66,
+      -7.2
+     ]
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "role": "extra",
+   "scale": 0.83,
+   "path": [
+    {
+     "t": 0,
+     "pos": [
+      -40,
+      -7.2
+     ]
+    },
+    {
+     "t": 70,
+     "pos": [
+      65,
+      -7.2
+     ]
+    }
+   ]
+  }
+ ],
+ "objects": [
+  {
+   "id": "bld-p-01",
+   "type": "building",
+   "pos": [
+    -67.2,
+    9
+   ],
+   "size": [
+    7.6,
+    9.81,
+    7
+   ],
+   "color": "#d8cbee",
+   "accent": "#f5c28a",
+   "rot": 180
+  },
+  {
+   "id": "bld-p-02",
+   "type": "building",
+   "pos": [
+    -59.68,
+    9
+   ],
+   "size": [
+    6.94,
+    9.89,
+    7
+   ],
+   "color": "#f8e6c9",
+   "accent": "#a9d1a4",
+   "rot": 180
+  },
+  {
+   "id": "bld-p-03",
+   "type": "building",
+   "pos": [
+    -52.33,
+    9
+   ],
+   "size": [
+    7.25,
+    7.73,
+    7
+   ],
+   "color": "#f3b9c6",
+   "accent": "#f5c28a",
+   "rot": 180
+  },
+  {
+   "id": "bld-p-04",
+   "type": "building",
+   "pos": [
+    -44.73,
+    9
+   ],
+   "size": [
+    7.46,
+    8.66,
+    7
+   ],
+   "color": "#f8e6c9",
+   "accent": "#9fc8e8",
+   "rot": 180
+  },
+  {
+   "id": "bld-p-05",
+   "type": "building",
+   "pos": [
+    -36.43,
+    9
+   ],
+   "size": [
+    8.63,
+    7.51,
+    7
+   ],
+   "color": "#f4cdb7",
+   "accent": "#c3a4e4",
+   "rot": 180
+  },
+  {
+   "id": "bld-p-06",
+   "type": "building",
+   "pos": [
+    -28.26,
+    9
+   ],
+   "size": [
+    7.21,
+    10.84,
+    7
+   ],
+   "color": "#f0d3df",
+   "accent": "#a9d1a4",
+   "rot": 180
+  },
+  {
+   "id": "bld-p-07",
+   "type": "building",
+   "pos": [
+    -20.27,
+    9
+   ],
+   "size": [
+    8.28,
+    8.46,
+    7
+   ],
+   "color": "#d8cbee",
+   "accent": "#9fc8e8",
+   "rot": 180
+  },
+  {
+   "id": "bld-p-08",
+   "type": "building",
+   "pos": [
+    -12.26,
+    9
+   ],
+   "size": [
+    7.23,
+    10.45,
+    7
+   ],
+   "color": "#dde7c3",
+   "accent": "#c3a4e4",
+   "rot": 180
+  },
+  {
+   "id": "bld-p-09",
+   "type": "building",
+   "pos": [
+    -4.09,
+    9
+   ],
+   "size": [
+    8.62,
+    7.64,
+    7
+   ],
+   "color": "#f3b9c6",
+   "accent": "#c3a4e4",
+   "rot": 180
+  },
+  {
+   "id": "bld-p-10",
+   "type": "building",
+   "pos": [
+    4.62,
+    9
+   ],
+   "size": [
+    8.3,
+    8.88,
+    7
+   ],
+   "color": "#dde7c3",
+   "accent": "#a9d1a4",
+   "rot": 180
+  },
+  {
+   "id": "bld-p-11",
+   "type": "building",
+   "pos": [
+    11.51,
+    9
+   ],
+   "size": [
+    4.98,
+    7.61,
+    7
+   ],
+   "color": "#d8cbee",
+   "accent": "#a9d1a4",
+   "rot": 180
+  },
+  {
+   "id": "bld-p-12",
+   "type": "building",
+   "pos": [
+    23.87,
+    9
+   ],
+   "size": [
+    8.73,
+    8.46,
+    7
+   ],
+   "color": "#f0d3df",
+   "accent": "#9fc8e8",
+   "rot": 180
+  },
+  {
+   "id": "bld-p-13",
+   "type": "building",
+   "pos": [
+    31.98,
+    9
+   ],
+   "size": [
+    6.99,
+    9.6,
+    7
+   ],
+   "color": "#e9d9c4",
+   "accent": "#a9d1a4",
+   "rot": 180
+  },
+  {
+   "id": "bld-p-14",
+   "type": "building",
+   "pos": [
+    39.86,
+    9
+   ],
+   "size": [
+    8.29,
+    9.12,
+    7
+   ],
+   "color": "#f4cdb7",
+   "accent": "#9fc8e8",
+   "rot": 180
+  },
+  {
+   "id": "bld-p-15",
+   "type": "building",
+   "pos": [
+    48.43,
+    9
+   ],
+   "size": [
+    8.34,
+    9.52,
+    7
+   ],
+   "color": "#f0d3df",
+   "accent": "#f5c28a",
+   "rot": 180
+  },
+  {
+   "id": "bld-p-16",
+   "type": "building",
+   "pos": [
+    57.22,
+    9
+   ],
+   "size": [
+    8.73,
+    7.55,
+    7
+   ],
+   "color": "#d8cbee",
+   "accent": "#f2a7bd",
+   "rot": 180
+  },
+  {
+   "id": "bld-p-17",
+   "type": "building",
+   "pos": [
+    65.22,
+    9
+   ],
+   "size": [
+    6.78,
+    10.74,
+    7
+   ],
+   "color": "#e9d9c4",
+   "accent": "#f2a7bd",
+   "rot": 180
+  },
+  {
+   "id": "bld-p-18",
+   "type": "building",
+   "pos": [
+    72.35,
+    9
+   ],
+   "size": [
+    6.97,
+    9.56,
+    7
+   ],
+   "color": "#cde2f1",
+   "accent": "#c3a4e4",
+   "rot": 180
+  },
+  {
+   "id": "bld-m-01",
+   "type": "building",
+   "pos": [
+    -66.65,
+    -9
+   ],
+   "size": [
+    8.69,
+    7.56,
+    7
+   ],
+   "color": "#e9d9c4",
+   "accent": "#a9d1a4",
+   "rot": 0
+  },
+  {
+   "id": "bld-m-02",
+   "type": "building",
+   "pos": [
+    -58.08,
+    -9
+   ],
+   "size": [
+    7.96,
+    9.59,
+    7
+   ],
+   "color": "#f8e6c9",
+   "accent": "#9fc8e8",
+   "rot": 0
+  },
+  {
+   "id": "bld-m-03",
+   "type": "building",
+   "pos": [
+    -50.53,
+    -9
+   ],
+   "size": [
+    6.64,
+    10.53,
+    7
+   ],
+   "color": "#e9d9c4",
+   "accent": "#a9d1a4",
+   "rot": 0
+  },
+  {
+   "id": "bld-m-04",
+   "type": "building",
+   "pos": [
+    -42.79,
+    -9
+   ],
+   "size": [
+    8.34,
+    10.84,
+    7
+   ],
+   "color": "#f3b9c6",
+   "accent": "#a9d1a4",
+   "rot": 0
+  },
+  {
+   "id": "bld-m-05",
+   "type": "building",
+   "pos": [
+    -34.54,
+    -9
+   ],
+   "size": [
+    7.65,
+    7.5,
+    7
+   ],
+   "color": "#cde2f1",
+   "accent": "#c3a4e4",
+   "rot": 0
+  },
+  {
+   "id": "bld-m-06",
+   "type": "building",
+   "pos": [
+    -26.26,
+    -9
+   ],
+   "size": [
+    8.42,
+    9.45,
+    7
+   ],
+   "color": "#e9d9c4",
+   "accent": "#f2a7bd",
+   "rot": 0
+  },
+  {
+   "id": "bld-m-07",
+   "type": "building",
+   "pos": [
+    -18.4,
+    -9
+   ],
+   "size": [
+    6.81,
+    10.98,
+    7
+   ],
+   "color": "#cde2f1",
+   "accent": "#a9d1a4",
+   "rot": 0
+  },
+  {
+   "id": "bld-m-08",
+   "type": "building",
+   "pos": [
+    -11.2,
+    -9
+   ],
+   "size": [
+    7.09,
+    9.99,
+    7
+   ],
+   "color": "#d8cbee",
+   "accent": "#a9d1a4",
+   "rot": 0
+  },
+  {
+   "id": "bld-m-09",
+   "type": "building",
+   "pos": [
+    -3.89,
+    -9
+   ],
+   "size": [
+    7.03,
+    10.78,
+    7
+   ],
+   "color": "#f4cdb7",
+   "accent": "#f2a7bd",
+   "rot": 0
+  },
+  {
+   "id": "bld-m-10",
+   "type": "building",
+   "pos": [
+    3.78,
+    -9
+   ],
+   "size": [
+    7.81,
+    9.7,
+    7
+   ],
+   "color": "#f8e6c9",
+   "accent": "#f5c28a",
+   "rot": 0
+  },
+  {
+   "id": "bld-m-11",
+   "type": "building",
+   "pos": [
+    10.97,
+    -9
+   ],
+   "size": [
+    6.06,
+    8.07,
+    7
+   ],
+   "color": "#d8cbee",
+   "accent": "#a9d1a4",
+   "rot": 0
+  },
+  {
+   "id": "bld-m-12",
+   "type": "building",
+   "pos": [
+    22.87,
+    -9
+   ],
+   "size": [
+    6.73,
+    8.78,
+    7
+   ],
+   "color": "#cde2f1",
+   "accent": "#a9d1a4",
+   "rot": 0
+  },
+  {
+   "id": "bld-m-13",
+   "type": "building",
+   "pos": [
+    30.7,
+    -9
+   ],
+   "size": [
+    8.44,
+    10.12,
+    7
+   ],
+   "color": "#dde7c3",
+   "accent": "#c3a4e4",
+   "rot": 0
+  },
+  {
+   "id": "bld-m-14",
+   "type": "building",
+   "pos": [
+    38.75,
+    -9
+   ],
+   "size": [
+    7.15,
+    8.3,
+    7
+   ],
+   "color": "#cde2f1",
+   "accent": "#f2a7bd",
+   "rot": 0
+  },
+  {
+   "id": "bld-m-15",
+   "type": "building",
+   "pos": [
+    45.99,
+    -9
+   ],
+   "size": [
+    6.83,
+    7.98,
+    7
+   ],
+   "color": "#e9d9c4",
+   "accent": "#a9d1a4",
+   "rot": 0
+  },
+  {
+   "id": "bld-m-16",
+   "type": "building",
+   "pos": [
+    54.04,
+    -9
+   ],
+   "size": [
+    8.77,
+    8.08,
+    7
+   ],
+   "color": "#f3b9c6",
+   "accent": "#f2a7bd",
+   "rot": 0
+  },
+  {
+   "id": "bld-m-17",
+   "type": "building",
+   "pos": [
+    62.32,
+    -9
+   ],
+   "size": [
+    7.29,
+    7.81,
+    7
+   ],
+   "color": "#e9d9c4",
+   "accent": "#c3a4e4",
+   "rot": 0
+  },
+  {
+   "id": "bld-m-18",
+   "type": "building",
+   "pos": [
+    69.56,
+    -9
+   ],
+   "size": [
+    6.69,
+    9.52,
+    7
+   ],
+   "color": "#f4cdb7",
+   "accent": "#a9d1a4",
+   "rot": 0
+  },
+  {
+   "id": "alley-end",
+   "type": "building",
+   "pos": [
+    16.75,
+    40
+   ],
+   "size": [
+    16,
+    11,
+    8
+   ],
+   "color": "#d8cbee",
+   "accent": "#f2a7bd",
+   "rot": 180
+  },
+  {
+   "id": "tree-p-1",
+   "type": "tree",
+   "pos": [
+    -64,
+    3.5
+   ],
+   "size": [
+    1,
+    1.05,
+    1
+   ],
+   "rot": 0
+  },
+  {
+   "id": "tree-p-2",
+   "type": "tree",
+   "pos": [
+    -50,
+    3.5
+   ],
+   "size": [
+    1,
+    1.08,
+    1
+   ],
+   "rot": 0
+  },
+  {
+   "id": "tree-p-3",
+   "type": "tree",
+   "pos": [
+    -36,
+    3.5
+   ],
+   "size": [
+    1,
+    1.09,
+    1
+   ],
+   "rot": 0
+  },
+  {
+   "id": "tree-p-4",
+   "type": "tree",
+   "pos": [
+    -22,
+    3.5
+   ],
+   "size": [
+    1,
+    1.1,
+    1
+   ],
+   "rot": 0
+  },
+  {
+   "id": "tree-p-5",
+   "type": "tree",
+   "pos": [
+    -12,
+    3.5
+   ],
+   "size": [
+    1,
+    1.13,
+    1
+   ],
+   "rot": 0
+  },
+  {
+   "id": "tree-p-6",
+   "type": "tree",
+   "pos": [
+    11,
+    3.5
+   ],
+   "size": [
+    1,
+    1.08,
+    1
+   ],
+   "rot": 0
+  },
+  {
+   "id": "tree-p-7",
+   "type": "tree",
+   "pos": [
+    24,
+    3.5
+   ],
+   "size": [
+    1,
+    1.06,
+    1
+   ],
+   "rot": 0
+  },
+  {
+   "id": "tree-p-8",
+   "type": "tree",
+   "pos": [
+    38,
+    3.5
+   ],
+   "size": [
+    1,
+    1.1,
+    1
+   ],
+   "rot": 0
+  },
+  {
+   "id": "tree-p-9",
+   "type": "tree",
+   "pos": [
+    52,
+    3.5
+   ],
+   "size": [
+    1,
+    1.11,
+    1
+   ],
+   "rot": 0
+  },
+  {
+   "id": "tree-p-10",
+   "type": "tree",
+   "pos": [
+    66,
+    3.5
+   ],
+   "size": [
+    1,
+    1.02,
+    1
+   ],
+   "rot": 0
+  },
+  {
+   "id": "tree-m-1",
+   "type": "tree",
+   "pos": [
+    -58,
+    -3.5
+   ],
+   "size": [
+    1,
+    1.05,
+    1
+   ],
+   "rot": 0
+  },
+  {
+   "id": "tree-m-2",
+   "type": "tree",
+   "pos": [
+    -44,
+    -3.5
+   ],
+   "size": [
+    1,
+    1.06,
+    1
+   ],
+   "rot": 0
+  },
+  {
+   "id": "tree-m-3",
+   "type": "tree",
+   "pos": [
+    -30,
+    -3.5
+   ],
+   "size": [
+    1,
+    1.06,
+    1
+   ],
+   "rot": 0
+  },
+  {
+   "id": "tree-m-4",
+   "type": "tree",
+   "pos": [
+    -16,
+    -3.5
+   ],
+   "size": [
+    1,
+    1.02,
+    1
+   ],
+   "rot": 0
+  },
+  {
+   "id": "tree-m-5",
+   "type": "tree",
+   "pos": [
+    -4,
+    -3.5
+   ],
+   "size": [
+    1,
+    1.03,
+    1
+   ],
+   "rot": 0
+  },
+  {
+   "id": "tree-m-6",
+   "type": "tree",
+   "pos": [
+    8,
+    -3.5
+   ],
+   "size": [
+    1,
+    1.05,
+    1
+   ],
+   "rot": 0
+  },
+  {
+   "id": "tree-m-7",
+   "type": "tree",
+   "pos": [
+    22,
+    -3.5
+   ],
+   "size": [
+    1,
+    1.01,
+    1
+   ],
+   "rot": 0
+  },
+  {
+   "id": "tree-m-8",
+   "type": "tree",
+   "pos": [
+    36,
+    -3.5
+   ],
+   "size": [
+    1,
+    1.07,
+    1
+   ],
+   "rot": 0
+  },
+  {
+   "id": "tree-m-9",
+   "type": "tree",
+   "pos": [
+    50,
+    -3.5
+   ],
+   "size": [
+    1,
+    1.07,
+    1
+   ],
+   "rot": 0
+  },
+  {
+   "id": "tree-m-10",
+   "type": "tree",
+   "pos": [
+    64,
+    -3.5
+   ],
+   "size": [
+    1,
+    1.03,
+    1
+   ],
+   "rot": 0
+  },
+  {
+   "id": "lamp-p-1",
+   "type": "lamp",
+   "pos": [
+    -45,
+    3.45
+   ],
+   "rot": 0
+  },
+  {
+   "id": "lamp-p-2",
+   "type": "lamp",
+   "pos": [
+    -31,
+    3.45
+   ],
+   "rot": 0
+  },
+  {
+   "id": "lamp-p-3",
+   "type": "lamp",
+   "pos": [
+    -17,
+    3.45
+   ],
+   "rot": 0
+  },
+  {
+   "id": "lamp-p-4",
+   "type": "lamp",
+   "pos": [
+    -1.2,
+    3.45
+   ],
+   "rot": 0
+  },
+  {
+   "id": "lamp-p-5",
+   "type": "lamp",
+   "pos": [
+    7.8,
+    3.45
+   ],
+   "rot": 0
+  },
+  {
+   "id": "lamp-p-6",
+   "type": "lamp",
+   "pos": [
+    28,
+    3.45
+   ],
+   "rot": 0
+  },
+  {
+   "id": "lamp-p-7",
+   "type": "lamp",
+   "pos": [
+    42,
+    3.45
+   ],
+   "rot": 0
+  },
+  {
+   "id": "lamp-p-8",
+   "type": "lamp",
+   "pos": [
+    56,
+    3.45
+   ],
+   "rot": 0
+  },
+  {
+   "id": "lamp-m-1",
+   "type": "lamp",
+   "pos": [
+    -38,
+    -3.45
+   ],
+   "rot": 180
+  },
+  {
+   "id": "lamp-m-2",
+   "type": "lamp",
+   "pos": [
+    -24,
+    -3.45
+   ],
+   "rot": 180
+  },
+  {
+   "id": "lamp-m-3",
+   "type": "lamp",
+   "pos": [
+    -10,
+    -3.45
+   ],
+   "rot": 180
+  },
+  {
+   "id": "lamp-m-4",
+   "type": "lamp",
+   "pos": [
+    3,
+    -3.45
+   ],
+   "rot": 180
+  },
+  {
+   "id": "lamp-m-5",
+   "type": "lamp",
+   "pos": [
+    14,
+    -3.45
+   ],
+   "rot": 180
+  },
+  {
+   "id": "lamp-m-6",
+   "type": "lamp",
+   "pos": [
+    30,
+    -3.45
+   ],
+   "rot": 180
+  },
+  {
+   "id": "lamp-m-7",
+   "type": "lamp",
+   "pos": [
+    46,
+    -3.45
+   ],
+   "rot": 180
+  },
+  {
+   "id": "bush-p-1",
+   "type": "bush",
+   "pos": [
+    -26,
+    3.5
+   ],
+   "rot": 0
+  },
+  {
+   "id": "bush-p-2",
+   "type": "bush",
+   "pos": [
+    -14.5,
+    3.5
+   ],
+   "rot": 0
+  },
+  {
+   "id": "bush-p-3",
+   "type": "bush",
+   "pos": [
+    12,
+    3.5
+   ],
+   "rot": 0
+  },
+  {
+   "id": "bush-p-4",
+   "type": "bush",
+   "pos": [
+    32,
+    3.5
+   ],
+   "rot": 0
+  },
+  {
+   "id": "bush-p-5",
+   "type": "bush",
+   "pos": [
+    -54,
+    3.5
+   ],
+   "rot": 0
+  },
+  {
+   "id": "bush-m-1",
+   "type": "bush",
+   "pos": [
+    -48,
+    -3.5
+   ],
+   "rot": 0
+  },
+  {
+   "id": "bush-m-2",
+   "type": "bush",
+   "pos": [
+    -20,
+    -3.5
+   ],
+   "rot": 0
+  },
+  {
+   "id": "bush-m-3",
+   "type": "bush",
+   "pos": [
+    -6,
+    -3.5
+   ],
+   "rot": 0
+  },
+  {
+   "id": "bush-m-4",
+   "type": "bush",
+   "pos": [
+    18,
+    -3.5
+   ],
+   "rot": 0
+  },
+  {
+   "id": "bush-m-5",
+   "type": "bush",
+   "pos": [
+    40,
+    -3.5
+   ],
+   "rot": 0
+  },
+  {
+   "id": "sign-p-1",
+   "type": "sign",
+   "pos": [
+    -38,
+    3.4
+   ],
+   "rot": 180
+  },
+  {
+   "id": "sign-p-2",
+   "type": "sign",
+   "pos": [
+    20,
+    3.4
+   ],
+   "rot": 180
+  },
+  {
+   "id": "sign-m-1",
+   "type": "sign",
+   "pos": [
+    -26,
+    -3.4
+   ],
+   "rot": 0
+  },
+  {
+   "id": "sign-m-2",
+   "type": "sign",
+   "pos": [
+    9,
+    -3.4
+   ],
+   "rot": 0
+  }
+ ],
+ "ring": {
+  "seed": 11,
+  "buildings": {
+   "count": 120,
+   "rMin": 62,
+   "rMax": 175
+  },
+  "street": {
+   "from": 72,
+   "to": 260
+  },
+  "fill": {
+   "count": 46,
+   "xRange": 76,
+   "zMin": 20,
+   "zMax": 56
+  },
+  "trees": {
+   "count": 90,
+   "rMin": 60,
+   "rMax": 190
+  },
+  "hills": {
+   "count": 22,
+   "rMin": 195,
+   "rMax": 265
+  },
+  "skyClouds": {
+   "count": 16,
+   "seed": 5
+  }
+ },
+ "rainbow": {
+  "center": "raka+luna",
+  "appearAt": 42,
+  "height": 3.6,
+  "radius": 3.4
+ },
+ "scenes": [
+  {
+   "id": 1,
+   "summary": "Kota kecil di pagi hari. Semua orang berjalan dengan awan cerah mengambang di atas kepala. Dino tertawa di trotoar.",
+   "anchor": "town",
+   "env": {
+    "preset": "morning",
+    "weather": "clear",
+    "dim": 0
+   },
+   "reveal": [
+    "kota",
+    "kerumunan",
+    "awan cerah"
+   ],
+   "expr": [
+    {
+     "id": "dino",
+     "expr": "happy"
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "summary": "Close-up: awan Dino putih cerah; awan Mira berubah abu-abu dan meneteskan hujan.",
+   "anchor": "dino+mira",
+   "env": {
+    "preset": "morning",
+    "weather": "clear",
+    "dim": [
+     0,
+     0.1
+    ]
+   },
+   "reveal": [
+    "hujan Mira"
+   ],
+   "expr": [
+    {
+     "id": "dino",
+     "expr": "happy"
+    },
+    {
+     "id": "mira",
+     "expr": "sad",
+     "at": 3.3
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "summary": "Raka berjalan sendirian, awannya hujan terus. Orang-orang menyingkir sambil menutup kepala.",
+   "anchor": "raka",
+   "env": {
+    "preset": "morning",
+    "weather": "gloom",
+    "dim": [
+     0.1,
+     0.35
+    ]
+   },
+   "reveal": [
+    "raka",
+    "hujan Raka"
+   ],
+   "expr": [
+    {
+     "id": "raka",
+     "expr": "sad"
+    },
+    {
+     "id": "mira",
+     "expr": "happy",
+     "at": 2.8
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "summary": "Luna muncul dari tikungan gang; awannya bersinar kuning hangat.",
+   "anchor": "luna",
+   "env": {
+    "preset": "morning",
+    "weather": "gloom",
+    "dim": [
+     0.35,
+     0.2
+    ]
+   },
+   "reveal": [
+    "luna",
+    "awan hangat"
+   ],
+   "expr": [
+    {
+     "id": "raka",
+     "expr": "shock",
+     "at": 1.4
+    },
+    {
+     "id": "raka",
+     "expr": "sad",
+     "at": 3.8
+    },
+    {
+     "id": "luna",
+     "expr": "happy"
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "summary": "Luna tidak lari: tersenyum, berdiri di sebelah Raka, ikut kehujanan.",
+   "anchor": "raka+luna",
+   "env": {
+    "preset": "golden",
+    "weather": "drizzle",
+    "dim": [
+     0.25,
+     0.3
+    ]
+   },
+   "expr": [
+    {
+     "id": "luna",
+     "expr": "determined"
+    },
+    {
+     "id": "luna",
+     "expr": "happy",
+     "at": 1.8
+    },
+    {
+     "id": "raka",
+     "expr": "sad"
+    }
+   ]
+  },
+  {
+   "id": 6,
+   "summary": "Awan Raka perlahan menipis, hujan jadi gerimis, lalu berhenti.",
+   "anchor": "raka",
+   "env": {
+    "preset": "golden",
+    "weather": "clearing",
+    "dim": [
+     0.3,
+     0.05
+    ]
+   },
+   "reveal": [
+    "gerimis",
+    "hujan reda"
+   ],
+   "expr": [
+    {
+     "id": "raka",
+     "expr": "sad"
+    },
+    {
+     "id": "raka",
+     "expr": "happy",
+     "at": 4
+    }
+   ]
+  },
+  {
+   "id": 7,
+   "summary": "Dua awan menyatu, muncul pelangi kecil.",
+   "anchor": "raka+luna",
+   "env": {
+    "preset": "golden",
+    "weather": "radiant",
+    "dim": [
+     0.05,
+     -0.2
+    ]
+   },
+   "reveal": [
+    "awan menyatu",
+    "pelangi"
+   ],
+   "expr": [
+    {
+     "id": "raka",
+     "expr": "happy"
+    },
+    {
+     "id": "luna",
+     "expr": "happy"
+    }
+   ]
+  },
+  {
+   "id": 8,
+   "summary": "Mereka berjalan berdampingan di bawah awan yang menyatu. 'Kita tidak perlu memperbaiki awan orang lain.'",
+   "anchor": "raka+luna",
+   "env": {
+    "preset": "golden",
+    "weather": "radiant",
+    "dim": -0.2
+   },
+   "expr": [
+    {
+     "id": "raka",
+     "expr": "happy"
+    },
+    {
+     "id": "luna",
+     "expr": "happy"
+    }
+   ]
+  },
+  {
+   "id": 9,
+   "summary": "Kamera menarik mundur ke kota; teks 'Cukup temani.' muncul.",
+   "anchor": "raka+luna",
+   "env": {
+    "preset": "golden",
+    "weather": "radiant",
+    "dim": [
+     -0.2,
+     -0.25
+    ]
+   },
+   "expr": [
+    {
+     "id": "raka",
+     "expr": "happy"
+    },
+    {
+     "id": "luna",
+     "expr": "happy"
+    }
+   ]
+  }
+ ]
+}

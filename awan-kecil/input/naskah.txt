@@ -1,0 +1,38 @@
+JUDUL: AWAN KECIL
+DURASI: ± 55 detik
+GAYA: Animasi 2D sederhana, warna pastel, latar kota kecil
+
+=====================================
+ADEGAN 1 (0:00 - 0:08)
+VISUAL: Kota kecil pagi hari. Semua orang berjalan, masing-masing punya awan mungil melayang di atas kepala.
+NARASI: In this world, setiap orang punya awan kecil yang selalu mengikuti di atas kepala.
+
+ADEGAN 2 (0:08 - 0:16)
+VISUAL: Close-up: awan putih cerah di atas anak tertawa, awan abu-abu meneteskan hujan di atas orang yang murung.
+NARASI: Kalau hatinya senang, awannya cerah. Kalau hatinya sedih, awannya menurunkan hujan.
+
+ADEGAN 3 (0:16-0:25)
+VISUAL: Raka berjalan sendirian, awan gelap di atasnya hujan terus. Orang-orang menyingkir sambil menutup kepala.
+NARASI: Ada seorang pria bernama Raka. Awannya selalu mendung, setiap hari. Orang-orang menjauh, takut kebasahan.
+
+ADEGAN 4 (0:25-0:32)
+VISUAL: Luna muncul dari tikungan, awannya bersinar kuning hangat.
+NARASI: Suatu pagi, Raka bertemu Luna. Awan Luna bersinar terang, bahkan hangat.
+
+ADEGAN 5 (0:32-0:40)
+VISUAL: Luna berdiri di samping Raka, ikut kehujanan, tersenyum.
+NARASI: Luna tidak lari. Dia hanya tersenyum, lalu berdiri di sebelah Raka, ikut basah.
+
+ADEGAN 6 (0:40-0:47)
+VISUAL: Awan Raka perlahan menipis, hujan jadi gerimis, lalu berhenti.
+NARASI: Pelan-pelan, awan Raka mulai menipis. Hujannya berubah jadi gerimis, lalu berhenti.
+
+ADEGAN 7 (0:47-0:55)
+VISUAL: Dua awan menyatu, muncul pelangi kecil. Kamera zoom out ke kota. Teks muncul: "Cukup temani."
+NARASI: Dua awan itu menyatu, dan muncul pelangi kecil. Di dunia ini, kita tidak perlu memperbaiki awan orang lain. Cukup temani dia, sampai hujannya reda.
+
+=====================================
+CATATAN PRODUKSI
+- Musik: piano lembut / ukulele, volume rendah di bawah narasi.
+- SFX: gerimis (adegan 2-3), "ting" kecil saat awan Luna muncul, suara hujan mereda (adegan 6).
+- Tanpa dialog karakter, semua lewat narasi dan ekspresi.
